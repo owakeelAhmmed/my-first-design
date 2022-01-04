@@ -44,7 +44,6 @@ p {
 .hire-button:hover{
    background-color: cornflowerblue;
    color: #fff;
-
 }
 .dream-section{
     background-image: url(images/dream-bg.png);
@@ -65,8 +64,24 @@ p {
     border-radius: 10px;
     box-shadow: -3px -3px 3px rgb(208 226 245 / 64%), 3px 3px 3px rgb(38 52 77 / 65%);
 }
+#web-experiences{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(181, 3, 252),rgb(12, 252, 92));
+    border-image-slice: 1;
+}
+#item-experiences{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(3, 252, 36),rgb(255, 212, 20));
+    border-image-slice: 1;
+}
 .exp-text-color{
     color: rgb(26, 155, 105);
+}
+.first-text-color{
+    color: crimson;
+}
+.last-later-cl{
+    color: darkmagenta;
 }
 footer p{
     text-align: center;
